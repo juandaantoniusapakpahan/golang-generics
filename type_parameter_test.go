@@ -7,7 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func GenericShow[T interface{}](param T) T {
+// any = interface{}
+func GenericShow[T any](param T) T {
 	fmt.Println(param)
 	return param
 }
