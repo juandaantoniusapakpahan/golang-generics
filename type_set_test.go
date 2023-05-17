@@ -24,3 +24,5 @@ func TestSetType(t *testing.T) {
 	assert.Equal(t, int32(3), MinNumber[int32](3, 5))
 
 }
+
+// go test -v -run=TestSetType
